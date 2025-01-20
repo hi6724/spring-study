@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<h1>Home</h1>
+
+<nav>
+    <ul>
+        <!-- 회원 등록 페이지로 이동 -->
+        <li><a th:href="@{/members/new}">회원 등록</a></li>
+        <!-- 회원 목록 페이지로 이동 -->
+        <li><a th:href="@{/members}">회원 목록</a></li>
+    </ul>
+</nav>
+</body>
+</html>
